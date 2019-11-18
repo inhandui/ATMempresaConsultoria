@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ATM Empresa Consultoria</string>
+    <string name="cd_logo">Logo da ATM empresa de consultoria</string>
+    <string name="cd_menu_servicos">Menu servico</string>
+    <string name="cd_menu_clientes">menu clientes</string>
+    <string name="cd_menu_empresa">Menu empresa</string>
+    <string name="cd_menu_contato">Menu contato</string>
 </resources>

@@ -18,6 +18,27 @@
         app:srcCompat="@drawable/logo" />
 
     <ImageView
+        android:id="@+id/menu_servicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/menu_empresa"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:srcCompat="@drawable/menu_servico" />
+
+    <ImageView
+        android:id="@+id/menu_clientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="@+id/menu_empresa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/menu_empresa"
+        app:layout_constraintTop_toBottomOf="@+id/menu_empresa"
+        app:srcCompat="@drawable/menu_cliente" />
+
+    <ImageView
         android:id="@+id/menu_empresa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,13 +49,14 @@
         app:srcCompat="@drawable/menu_empresa" />
 
     <ImageView
-        android:id="@+id/menu_servicos"
+        android:id="@+id/menu_contato"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/menu_empresa"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:srcCompat="@drawable/menu_servico" />
+        app:layout_constraintEnd_toEndOf="@+id/menu_servicos"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/menu_servicos"
+        app:layout_constraintTop_toBottomOf="@+id/menu_servicos"
+        app:srcCompat="@drawable/menu_contato" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

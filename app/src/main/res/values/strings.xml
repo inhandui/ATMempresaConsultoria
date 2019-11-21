@@ -5,4 +5,5 @@
     <string name="cd_menu_clientes">menu clientes</string>
     <string name="cd_menu_empresa">Menu empresa</string>
     <string name="cd_menu_contato">Menu contato</string>
+    <string name="sobre_empresa">Sobre a empresa</string>
 </resources>

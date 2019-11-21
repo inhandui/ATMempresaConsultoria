@@ -16,4 +16,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/sobreEmpresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/sobre_empresa"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/detalhe_empresa"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

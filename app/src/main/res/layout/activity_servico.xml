@@ -30,10 +30,32 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/consultoria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="141dp" />
+        android:layout_marginTop="48dp"
+        android:text="@string/servico_consultoria"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/detalhe_servico"
+        app:layout_constraintTop_toBottomOf="@+id/detalhe_servico" />
+
+    <TextView
+        android:id="@+id/processos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/servico_processos"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/consultoria"
+        app:layout_constraintTop_toBottomOf="@+id/consultoria" />
+
+    <TextView
+        android:id="@+id/acompanhamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/servico_acompanhamento"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/processos"
+        app:layout_constraintTop_toBottomOf="@+id/processos" />
 </androidx.constraintlayout.widget.ConstraintLayout>

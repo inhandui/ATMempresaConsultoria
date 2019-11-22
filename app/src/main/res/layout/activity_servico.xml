@@ -15,5 +15,17 @@
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/menu_servico" />
+        app:srcCompat="@drawable/detalhe_servico" />
+
+    <TextView
+        android:id="@+id/sobreServicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/sobre_servicos"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/detalhe_servico"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

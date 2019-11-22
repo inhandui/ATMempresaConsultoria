@@ -12,6 +12,8 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView menu_empresa;
 
+    private ImageView menu_servicos;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,5 +27,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, EmpresaActivity.class));
             }
         });
+
+        menu_servicos = findViewById(R.id.menu_servicos);
+
     }
 }

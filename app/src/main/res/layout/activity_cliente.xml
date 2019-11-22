@@ -16,4 +16,56 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/detalhe_cliente" />
+
+    <TextView
+        android:id="@+id/sobreClientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/sobre_clientes"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/cliente_sys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/cliente1" />
+
+    <TextView
+        android:id="@+id/cliente_sys_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/detalhe_sys"
+        app:layout_constraintStart_toStartOf="@+id/cliente_sys"
+        app:layout_constraintTop_toBottomOf="@+id/cliente_sys" />
+
+    <ImageView
+        android:id="@+id/cliente_rms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/cliente_sys"
+        app:layout_constraintTop_toBottomOf="@+id/cliente_sys_nome"
+        app:srcCompat="@drawable/cliente2" />
+
+    <TextView
+        android:id="@+id/cliente_sys_nome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/detalhe_rms"
+        app:layout_constraintStart_toStartOf="@+id/cliente_rms"
+        app:layout_constraintTop_toBottomOf="@+id/cliente_rms" />
 </androidx.constraintlayout.widget.ConstraintLayout>

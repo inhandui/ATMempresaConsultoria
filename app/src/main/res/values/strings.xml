@@ -11,4 +11,7 @@
     <string name="servico_consultoria">Consultoria</string>
     <string name="servico_processos">Processos</string>
     <string name="servico_acompanhamento">Acompanhamento de projetos</string>
+    <string name="sobre_clientes">Nossos clientes</string>
+    <string name="detalhe_sys">Empresa de Desenvolvimento de sistemas</string>
+    <string name="detalhe_rms">Empresa de auditoria</string>
 </resources>

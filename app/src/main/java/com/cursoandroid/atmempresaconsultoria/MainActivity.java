@@ -2,6 +2,8 @@ package com.cursoandroid.atmempresaconsultoria;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -17,5 +19,11 @@ public class MainActivity extends AppCompatActivity {
 
         menu_empresa = findViewById(R.id.menu_empresa);
 
+        menu_empresa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, EmpresaActivity.class));
+            }
+        });
     }
 }

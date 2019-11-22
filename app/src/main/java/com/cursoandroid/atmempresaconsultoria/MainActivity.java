@@ -30,5 +30,12 @@ public class MainActivity extends AppCompatActivity {
 
         menu_servicos = findViewById(R.id.menu_servicos);
 
+        menu_servicos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ServicoActivity.class));
+            }
+        });
+
     }
 }

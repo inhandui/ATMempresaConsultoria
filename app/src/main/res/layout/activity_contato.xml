@@ -28,4 +28,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/detalhe_contato" />
+
+    <TextView
+        android:id="@+id/contato_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/contato_email"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/contatoTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/contato_telefone"
+        app:layout_constraintStart_toStartOf="@+id/contato_email"
+        app:layout_constraintTop_toBottomOf="@+id/contato_email" />
+
+    <TextView
+        android:id="@+id/contatoCelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/contato_celular"
+        app:layout_constraintStart_toStartOf="@+id/contatoTelefone"
+        app:layout_constraintTop_toBottomOf="@+id/contatoTelefone" />
 </androidx.constraintlayout.widget.ConstraintLayout>

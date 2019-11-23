@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageView menu_clientes;
 
+    private ImageView menu_contato;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ClienteActivity.class));
             }
         });
+
+        menu_contato = findViewById(R.id.menu_contato);
 
 
     }

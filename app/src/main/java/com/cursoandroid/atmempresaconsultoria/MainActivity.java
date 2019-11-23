@@ -52,6 +52,13 @@ public class MainActivity extends AppCompatActivity {
 
         menu_contato = findViewById(R.id.menu_contato);
 
+        menu_contato.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ContatoActivity.class));
+            }
+        });
+
 
     }
 }
